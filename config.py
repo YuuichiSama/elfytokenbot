@@ -34,7 +34,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "publicearn.com")
 SHORTLINK_API = os.environ.get('SHORTLINK_API', "83bfdde237361c5f8539ea59c89571bf5575eb77")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
-IS_VERIFY = os.environ.get("IS_VERIFY", "True")
+IS_VERIFY = os.environ.get("IS_VERIFY", "False")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/links_wallah_channel/11")
 
 
