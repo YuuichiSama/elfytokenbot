@@ -19,27 +19,27 @@ APP_ID = int(os.environ.get("APP_ID", "26634100"))
 API_HASH = os.environ.get("API_HASH", "9ea49405d5a93e784114c469f5ce4bbd")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002099037878"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002394020575"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6321064549"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1163318744"))
 
 #Port
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "8434")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://lucas242158:HCXwNAkwk3DLtAkP@cluster0.taoae8u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Yuuichi:Yuuichi@cluster0.rx5to.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
-SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "publicearn.com")
-SHORTLINK_API = os.environ.get('SHORTLINK_API', "83bfdde237361c5f8539ea59c89571bf5575eb77")
+SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "shortxlinks.com")
+SHORTLINK_API = os.environ.get('SHORTLINK_API', "0ab5f3ea65813798d8c52e25d1c8dafcbc9bf217")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/links_wallah_channel/11")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002007617072"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002486093427"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -47,7 +47,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "<blockquote><b>ʙᴀᴋᴋᴀᴀᴀ!! {first}\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote></b>")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6907806722 6558061813 6564942226 6321064549 1240774534 ").split()):
+    for x in (os.environ.get("ADMINS", "1163318744 5734659617 6384383529").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
